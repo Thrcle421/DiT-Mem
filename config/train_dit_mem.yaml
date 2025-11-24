@@ -1,0 +1,42 @@
+output_path: ./results/dit_mem
+save_steps: 1
+
+model_paths:
+  - model/Wan2.1-T2V-1.3B/diffusion_pytorch_model.safetensors
+  - model/Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth
+  - model/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth
+model_id_with_origin_paths: null
+trainable_models: "dit_mem"
+
+csv_path: data/example.csv
+latents_dir: latent
+dataset_repeat: 1
+max_train_samples: 3
+
+num_workers: 0
+batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 0.00001
+weight_decay: 0.0
+num_epochs: 5
+
+find_unused_parameters: true
+use_gradient_checkpointing_offload: false
+
+max_timestep_boundary: 1.0
+min_timestep_boundary: 0.0
+
+enable_retrieval: true
+retrieval_index_path: memory_index/labels.index
+retrieval_id_map_path: memory_index/id_map.json
+retrieval_video_dir: video
+retrieval_latents_dir: latent
+retrieval_k: 5
+
+# use_wandb: true
+# wandb_project: openvid-1.3B-t2v
+# wandb_name: DiT-Mem-1.3B
+# log_grad_norm_interval: 50
+
+seed: 42
+debug: false

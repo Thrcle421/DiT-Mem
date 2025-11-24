@@ -1,0 +1,4 @@
+weights/
+__pycache__/
+*.pyc
+output/

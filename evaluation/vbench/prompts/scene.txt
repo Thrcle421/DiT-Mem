@@ -1,0 +1,10 @@
+bar
+basement
+bathroom
+bedroom
+driveway
+gas station
+golf course
+indoor library
+ocean
+waterfall
