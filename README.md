@@ -1,6 +1,6 @@
 # Learning Plug-and-play Memory for Guiding Video Diffusion Models
 
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-24xx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/24xx.xxxxx) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2511.19229-b31b1b.svg)](https://arxiv.org/abs/2511.19229)
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://thrcle421.github.io/DiT-Mem-Web/)
 [![HuggingFace Model](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/Thrcle/DiT-Mem-1.3B)
 [![HuggingFace Dataset](https://img.shields.io/badge/🤗-Dataset-blue)](https://huggingface.co/datasets/Thrcle/DiT-Mem-Data)
@@ -161,11 +161,11 @@ For detailed instructions, please refer to [evaluation/README.md](evaluation/REA
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{ditmem2025,
-  title={Learning Plug-and-play Memory for Guiding Video Diffusion Models},
-  author={Author One and Author Two and Author Three},
-  journal={arXiv preprint arXiv:24xx.xxxxx},
-  year={2025}
+@misc{2511.19229,
+Author = {Selena Song and Ziming Xu and Zijun Zhang and Kun Zhou and Jiaxian Guo and Lianhui Qin and Biwei Huang},
+Title = {Learning Plug-and-play Memory for Guiding Video Diffusion Models},
+Year = {2025},
+Eprint = {arXiv:2511.19229},
 }
 ```
 
