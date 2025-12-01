@@ -161,11 +161,11 @@ For detailed instructions, please refer to [evaluation/README.md](evaluation/REA
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@misc{2511.19229,
-Author = {Selena Song and Ziming Xu and Zijun Zhang and Kun Zhou and Jiaxian Guo and Lianhui Qin and Biwei Huang},
-Title = {Learning Plug-and-play Memory for Guiding Video Diffusion Models},
-Year = {2025},
-Eprint = {arXiv:2511.19229},
+@article{song2025learning,
+  title={Learning Plug-and-play Memory for Guiding Video Diffusion Models},
+  author={Song, Selena and Xu, Ziming and Zhang, Zijun and Zhou, Kun and Guo, Jiaxian and Qin, Lianhui and Huang, Biwei},
+  journal={arXiv preprint arXiv:2511.19229},
+  year={2025}
 }
 ```
 
